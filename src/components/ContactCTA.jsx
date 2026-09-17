@@ -18,7 +18,12 @@ export function ContactCTA() {
         />
 
         <div className="relative mx-auto max-w-3xl text-center">
-          <PlayMark className="mx-auto h-12 w-12 text-ink" />
+          <img
+            src="/logo-dark.png"
+            alt="Family Phys. Ed."
+            className="mx-auto h-28 w-auto sm:h-36 object-contain select-none"
+            loading="lazy"
+          />
 
           <h2 className="mt-6 font-display text-4xl leading-[1.02] font-extrabold text-balance sm:text-6xl">
             Let&apos;s play.

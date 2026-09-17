@@ -47,10 +47,10 @@ export function Navbar() {
     >
       <nav
         aria-label="Main"
-        className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-3 sm:px-8 lg:py-4"
+        className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-2 sm:px-8 lg:py-2.5"
       >
         <a href="/#top" className="shrink-0" aria-label="Family Phys. Ed. home">
-          <BrandLogo />
+          <BrandLogo className="h-16 w-auto sm:h-20" />
         </a>
 
         <ul className="hidden items-center gap-7 lg:flex">

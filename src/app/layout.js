@@ -27,8 +27,11 @@ export const metadata = {
   description:
     "True fun. Real play. All welcome. Energetic coaches bring your favorite childhood P.E. games to life for families, kids and grown-ups. Book a session or find a local coach.",
   icons: {
-    icon: "/icon.svg",
-    apple: "/apple-icon.svg",
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/favicon.png",
+    shortcut: "/favicon.png",
   },
   openGraph: {
     title: "Family Phys. Ed. — Childhood P.E. Games, Coached For Families",

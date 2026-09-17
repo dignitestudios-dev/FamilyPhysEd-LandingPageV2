@@ -54,7 +54,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="grid gap-12 lg:grid-cols-[1.3fr_2fr]">
           <div>
-            <BrandLogo tone="light" />
+            <BrandLogo tone="light" className="h-20 w-auto sm:h-24" />
             <p className="mt-5 max-w-sm leading-relaxed text-background/60">
               True fun. Real play. All welcome. Your favorite childhood P.E.
               games brought to life by energetic coaches — created and founded by
