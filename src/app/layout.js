@@ -40,15 +40,22 @@ export const metadata = {
   },
 };
 
+export const viewport = {
+  themeColor: "#FDFCF7",
+  colorScheme: "light",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${archivo.variable} ${dmSans.variable} ${parisienne.variable} scroll-smooth`}
+      style={{ colorScheme: "light" }}
+      className={`${archivo.variable} ${dmSans.variable} ${parisienne.variable} scroll-smooth light`}
     >
       <body
         suppressHydrationWarning
+        style={{ colorScheme: "light" }}
         className="min-h-screen bg-background text-foreground antialiased selection:bg-primary selection:text-primary-foreground"
       >
         {children}
