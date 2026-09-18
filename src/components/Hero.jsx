@@ -90,7 +90,7 @@ export function Hero() {
                 width={720}
                 height={1007}
                 loading="lazy"
-                className="h-32 w-full rounded-2xl object-cover sm:h-36"
+                className="h-32 w-full rounded-2xl object-cover object-top sm:h-36"
               />
               <p className="px-2 py-2 text-sm leading-snug font-semibold">
                 Real coaches. Real games. Zero sideline sitting.
